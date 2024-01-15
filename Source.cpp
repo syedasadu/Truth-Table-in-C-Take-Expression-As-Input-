@@ -7,9 +7,9 @@
 #include <conio.h>
 
 using namespace std;
-/*
+/***********************
   header.h
-*/
+************************/
 
 
 template <typename T, int N>
@@ -28,9 +28,9 @@ public:
 };
 
 
-/*
+/**************************
    header.cpp
-*/
+***************************/
 
 template<typename T, int N>
 Stack<T, N>::Stack()
@@ -295,9 +295,9 @@ bool isValidString(const std::string& input)
     return true;  // All conditions satisfied
 }
 
-/*
+/***********************************
    main.cpp
-*/
+************************************/
 
 int main()
 {
